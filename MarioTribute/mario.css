@@ -1,0 +1,21 @@
+body{
+    background-color: tan;
+    color: aliceblue;
+}
+header{
+    background-color: rgba(170, 36, 36, 0.8);
+    
+}
+section{
+    background-color: rgb(255, 57, 57);
+}
+section header{
+    background-color: white;
+}
+aside{
+    background-color: blue
+}
+footer{
+    background-color:#8d5c3e;
+}
+
