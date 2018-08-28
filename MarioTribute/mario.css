@@ -33,9 +33,8 @@ nav{
     background-color: green;
     font-size: 1em;
     color: black;
-    font-weight: bolder;
-    border-image: url("brick.png");
-    border: 50px black;
+    border:10px solid transparent;
+    border-image: url("brick.png") 30% round;
 }
 nav :visited{
     color: black;
