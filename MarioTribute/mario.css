@@ -6,20 +6,28 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-
+    text-align: center;
     font-size: 100%;
 }
+h1{
+    text-align: center;
+}
 header{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, .8);
     font-family: 'Press Start 2P', cursive;
     background-image: url("https://jlaw21.github.io/Resources/mario-pipe.png");
-    color: rgb(0, 0, 0);
+   background-size: contain;
+    color:#292929;
+    text-shadow: 0 1px 10px white;
+    text-align: center;
 }
 section{
     background-color: rgb(255, 57, 57);
 }
 section header{
     background-color: black;
+    background-image: url(brick.png);
+    line-height: 2em;
 }
 aside{
     background-color: blue
@@ -36,6 +44,9 @@ nav{
     border:10px solid transparent;
     border-image: url("brick.png") 30% round;
 }
+a{
+    text-decoration: none;
+}
 nav :visited{
     color: black;
 }
@@ -43,6 +54,12 @@ nav :visited{
 section h3{
     font-size: 2em;
     font-style: oblique;
+}
+p{
+    line-height: 1.6em;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: .1em;
+    word-spacing: .2em;
 }
 p, li{
     font:small-caps 2em 'VT323', monospace; ;
