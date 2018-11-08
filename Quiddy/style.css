@@ -4,3 +4,9 @@
 .thead-dark{
     background-color: #FFC500;
 }
+.carousel{
+    height: 600px;
+}
+.carousel .jumbotron{
+    height: 600px;
+}
