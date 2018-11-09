@@ -9,4 +9,9 @@
 }
 .carousel .jumbotron{
     height: 600px;
+    background-image: url(wp3182073.jpg);
+}
+.btn-dark{
+    background-color: #FFC500;
+
 }
