@@ -1,0 +1,12 @@
+section{
+    font-size: 72px;
+}
+button{
+    font-size: 72px;
+}
+.hideMe{
+    display: none;
+}
+.clickMe{
+    border:solid 2px red;
+}
